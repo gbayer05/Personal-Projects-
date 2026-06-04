@@ -1,6 +1,8 @@
 #Gentry Bayer 
 #6/2/2026 
 #Medical Data Validator 
+#This is a workshop project from free code camp. I built it first and there and then tried it on my own. 
+#This is great for validating medical data, or really any data at all. 
 import re   # this imports the module 
 
 medical_records = [ #this is the dictionary of the information
