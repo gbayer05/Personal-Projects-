@@ -1,17 +1,19 @@
-class MusicalInstrument:
-    def __init__(self, name, instrument_type):
-        self.name = name
-        self.instrument_type = instrument_type
+class MusicalInstrument:  # A class called Musical Instrument. This is the start of creating the inventory. 
+    def __init__(self, name, instrument_type):  #This is a method with 3 parameters 
+        self.name = name  #this is assigning parameters to instance_attributes 
+        self.instrument_type = instrument_type # this is assiging another paremeter to an instance_attrribute 
 
-    def play(self):
-        print(f'The {self.name} is fun to play!')
+    def play(self): # this is a the play method with only the self parameter 
+        print(f'The {self.name} is fun to play!') # A print statement that is an f string, and it prints the name of the instrument that is fun to play. 
 
-    def get_fact(self):
-        return f'The {self.name} is part of the {self.instrument_type} family of instruments.'
+    def get_fact(self): #same as above just the get_fact method 
+        return f'The {self.name} is part of the {self.instrument_type} family of instruments.' #same type of print statement that is above, just includes name and type. 
 
-instrument_1 = MusicalInstrument('Oboe', 'woodwind')
+#This section is creating instances. 
+instrument_1 = MusicalInstrument('Oboe', 'woodwind') 
 instrument_2 = MusicalInstrument('Trumpet', 'brass')
 
+#Both these sections are calling the instances and printing the get_fact method. 
 instrument_1.play()
 print(instrument_1.get_fact())
 
