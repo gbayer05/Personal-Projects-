@@ -1,3 +1,8 @@
+#Gentry Bayer 
+# 7/1/2026
+# This was another workshop project that iw orked on in the freee code camp. 
+# This is great for inventories, this is a very basic and beginner user friendly project. 
+
 class MusicalInstrument:  # A class called Musical Instrument. This is the start of creating the inventory. 
     def __init__(self, name, instrument_type):  #This is a method with 3 parameters 
         self.name = name  #this is assigning parameters to instance_attributes 
