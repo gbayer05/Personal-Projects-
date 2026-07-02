@@ -1,3 +1,7 @@
+#Gentry Bayer 
+# 7/1/2026 
+# This was a lab activity from the workshop in freecode camp. This is another user friendly and beginner project. 
+#This demonstrates classes and how they work. 
 class Planet:
     def __init__(self, name, planet_type, star):
         # Check that all arguments are strings
